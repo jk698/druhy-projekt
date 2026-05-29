@@ -13,6 +13,13 @@ export const metadata: Metadata = {
   title: "Příležitosti — denní výběr",
   description:
     "Každý den dvě nové příležitosti: jedna na míru tvému profilu, jedna ze světových trendů použitelných v ČR.",
+  // Soukromý web — ať se nedostane do vyhledávačů.
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: { index: false, follow: false },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
