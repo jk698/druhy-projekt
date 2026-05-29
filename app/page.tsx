@@ -3,6 +3,7 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { Filters } from "@/components/Filters";
 import { GenerateButton } from "@/components/GenerateButton";
 import { formatDateCs } from "@/lib/format";
+import { isReadOnlyHosting } from "@/lib/env";
 
 export default function HomePage() {
   const articles = getAllArticles();
@@ -20,7 +21,7 @@ export default function HomePage() {
             Dvě příležitosti denně.
           </h1>
         </div>
-        <GenerateButton />
+        {!isReadOnlyHosting() && <GenerateButton />}
       </section>
 
       <Filters allTags={tags} />

@@ -4,6 +4,7 @@ import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 import { getGenerationConfig } from "@/lib/generation-config";
 import { findHeroImage } from "@/lib/openverse";
+import { isReadOnlyHosting } from "@/lib/env";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 120;
@@ -214,6 +215,17 @@ trend: "${escapeYaml(article.trend)}"
 }
 
 export async function POST() {
+  if (isReadOnlyHosting()) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error:
+          "Generování běží jen lokálně přes Claude Code. Na produkci je vypnuté (read-only filesystem).",
+      },
+      { status: 403 }
+    );
+  }
+
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
     return NextResponse.json(

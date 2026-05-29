@@ -6,6 +6,7 @@ import {
   saveGenerationConfig,
   type GenerationConfig,
 } from "@/lib/generation-config";
+import { isReadOnlyHosting } from "@/lib/env";
 
 export const dynamic = "force-dynamic";
 
@@ -36,6 +37,17 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(
       { ok: false, error: "Nepřihlášeno." },
       { status: 401 }
+    );
+  }
+
+  if (isReadOnlyHosting()) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error:
+          "Pokyny se ukládají jen lokálně (read-only filesystem na produkci). Uprav je v lokálním běhu přes Claude Code a pushni do gitu.",
+      },
+      { status: 403 }
     );
   }
 
