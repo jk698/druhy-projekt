@@ -7,7 +7,9 @@ import { findHeroImage } from "@/lib/openverse";
 import { isReadOnlyHosting } from "@/lib/env";
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 120;
+// Vercel Hobby plán má strop 60 s. Generování stejně běží jen lokálně (dev
+// server žádný strop nemá), na produkci je route vypnutá přes isReadOnlyHosting().
+export const maxDuration = 60;
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "articles");
 const TOPICS_LOG_PATH = path.join(process.cwd(), "content", "topics-log.json");
