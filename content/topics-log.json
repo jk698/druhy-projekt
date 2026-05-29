@@ -76,6 +76,58 @@
         "vertikalizace (zubaři, autoservisy)",
         "napojení na české rezervační systémy"
       ]
+    },
+    {
+      "date": "2026-05-29T12:00:00.000Z",
+      "type": "A",
+      "slug": "2026-05-29-a3-betonovy-3d-tisk-designove-prvky",
+      "title": "Betonový 3D tisk na míru — malosériová výroba designových prvků pro města a developery",
+      "key_topics": [
+        "stavební / betonový 3D tisk",
+        "malosériová designová výroba",
+        "zahradní a městský mobiliář",
+        "atypické fasádní a stavební prvky",
+        "outsourcing tisku před koupí stroje"
+      ]
+    },
+    {
+      "date": "2026-05-29T12:00:00.000Z",
+      "type": "A",
+      "slug": "2026-05-29-a4-firemni-vcelareni-esg-sluzba",
+      "title": "Firemní úly jako služba — ESG projekt s brandovaným medem a ročním paušálem",
+      "key_topics": [
+        "firemní včelaření jako B2B služba",
+        "ESG / CSRD biodiverzitní projekt",
+        "brandovaný med + online monitoring",
+        "roční paušál a opakovaný příjem",
+        "regionální trh mimo Prahu"
+      ]
+    },
+    {
+      "date": "2026-05-29T12:00:00.000Z",
+      "type": "B",
+      "slug": "2026-05-29-b3-padelove-centrum",
+      "title": "Indoor padelové centrum — evropský sportovní boom, který do ČR teprve dorazil",
+      "key_topics": [
+        "indoor padelové kurty",
+        "rezervační systém Playtomic + semi-pasivní provoz",
+        "trh klubů 6 mld. € (2026), CAGR 7,5 %",
+        "trend z jihu Evropy do podsazené ČR",
+        "členství, ligy, trenéři, bar"
+      ]
+    },
+    {
+      "date": "2026-05-29T12:00:00.000Z",
+      "type": "B",
+      "slug": "2026-05-29-b4-refurbishment-firemni-elektroniky",
+      "title": "Refurbishment firemní elektroniky — Right to Repair otevírá trh za desítky miliard eur",
+      "key_topics": [
+        "refurbishment firemní IT techniky",
+        "EU směrnice o opravě zboží 2024/1799 od 31.7.2026",
+        "circular economy + ESG vyřazení dat",
+        "výkup, certifikovaný wipe, prodej se zárukou",
+        "B2B + B2C e-shop, marže 30–45 %"
+      ]
     }
   ]
 }
