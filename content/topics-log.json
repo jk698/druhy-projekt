@@ -1,0 +1,81 @@
+{
+  "_comment": "Rejstřík témat pro anti-duplicitu. Naplánovaný agent sem zapisuje, co už zpracoval, a v promptu se zaváže neopakovat témata z posledních 90 dnů.",
+  "entries": [
+    {
+      "date": "2026-05-28T00:00:00.000Z",
+      "type": "A",
+      "slug": "2026-05-28-a-italsky-dum-pomale-pobyty",
+      "title": "Italský dům v Abruzzu jako 'pomalé pobyty' pro českou klientelu 45+",
+      "key_topics": [
+        "italské nemovitosti",
+        "pomalé pobyty / slow travel",
+        "rekonstrukce + pronájem",
+        "Czech-only marketing"
+      ]
+    },
+    {
+      "date": "2026-05-28T00:00:00.000Z",
+      "type": "B",
+      "slug": "2026-05-28-b-ai-compliance-audit-sme",
+      "title": "AI compliance audit pro české SME — EU AI Act spustil vlnu, kterou nikdo nečte",
+      "key_topics": [
+        "EU AI Act compliance",
+        "SME B2B konzultace",
+        "ÚOOÚ + nová národní AI autorita",
+        "audit + retainer model"
+      ]
+    },
+    {
+      "date": "2026-05-29T05:00:00.000Z",
+      "type": "A",
+      "slug": "2026-05-29-a-italsky-glamping-vlastni-pozemek",
+      "title": "Italský glamping na vlastní pozemek — 3 designové lodge s otevřenou kuchyní jako pětiletý ROI projekt",
+      "key_topics": [
+        "glamping v ČR",
+        "premium pozicioning s italskou kuchyní",
+        "designové lodge (60–80 m²)",
+        "pronájem pozemku 10 let",
+        "cooking experience jako upsell"
+      ]
+    },
+    {
+      "date": "2026-05-29T05:00:00.000Z",
+      "type": "B",
+      "slug": "2026-05-29-b-bess-broker-pro-sme",
+      "title": "Bateriová úložiště pro firmy — broker, který provede dotacemi, výběrem dodavatele a peak shavingem. LEX OZE III spustil vlnu.",
+      "key_topics": [
+        "BESS bateriová úložiště pro SME",
+        "nezávislý broker / poradenství",
+        "LEX OZE III + NZÚ 2026 + OP TAK",
+        "peak shaving + dotační management",
+        "retainer model pro CFO"
+      ]
+    },
+    {
+      "date": "2026-05-29T09:00:00.000Z",
+      "type": "A",
+      "slug": "2026-05-29-a2-dronova-inspekce-staveb-fve",
+      "title": "Dronová inspekce staveb, střech a fotovoltaik — termovize a 3D modely jako služba s vysokou sazbou",
+      "key_topics": [
+        "dronová inspekce a fotogrammetrie",
+        "termodiagnostika FVE + střech a fasád",
+        "EASA C5/C6 regulace od 1.1.2026",
+        "pasportizace a 3D model staveb",
+        "servisní smlouvy + AI vyhodnocení"
+      ]
+    },
+    {
+      "date": "2026-05-29T09:00:00.000Z",
+      "type": "B",
+      "slug": "2026-05-29-b2-ai-hlasovi-agenti-pro-firmy",
+      "title": "AI hlasoví agenti pro české firmy — recepce a rezervace, které nezmeškají hovor",
+      "key_topics": [
+        "AI hlasoví agenti v češtině",
+        "recepce a rezervace pro SME",
+        "productized služba setup + retainer",
+        "vertikalizace (zubaři, autoservisy)",
+        "napojení na české rezervační systémy"
+      ]
+    }
+  ]
+}

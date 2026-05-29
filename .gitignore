@@ -1,0 +1,13 @@
+node_modules
+.next
+.env*
+.DS_Store
+*.log
+next-env.d.ts
+*.tsbuildinfo
+
+# Lokální nastavení Claude Code (oprávnění apod.) — nesdílet
+.claude/settings.local.json
+
+# Soukromé pokyny pro generování (uprav v /admin). Nesdílet do repozitáře.
+content/generation-config.json

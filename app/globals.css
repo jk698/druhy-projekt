@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-paper text-ink;
+  }
+  ::selection {
+    background-color: #00bc7d;
+    color: #ffffff;
+  }
+}
+
+@layer components {
+  .container-tight {
+    @apply mx-auto w-full max-w-5xl px-5 sm:px-8;
+  }
+  .container-read {
+    @apply mx-auto w-full max-w-3xl px-5 sm:px-8;
+  }
+  .pill {
+    @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-sm font-medium text-ink/60 transition-colors hover:bg-paper-soft hover:text-ink;
+  }
+  .pill-active {
+    @apply bg-ink text-paper hover:bg-ink hover:text-paper;
+  }
+  .cat-label {
+    @apply text-[13px] font-semibold tracking-tight;
+  }
+  .prose-article {
+    @apply text-[17px] leading-[1.75] text-ink/80;
+  }
+  .prose-article h2 {
+    @apply mt-10 mb-3 text-2xl font-bold tracking-tight text-ink;
+  }
+  .prose-article h3 {
+    @apply mt-8 mb-2 text-lg font-semibold tracking-tight text-ink;
+  }
+  .prose-article p {
+    @apply my-4;
+  }
+  .prose-article ul {
+    @apply my-4 list-disc pl-6 space-y-1;
+  }
+  .prose-article ol {
+    @apply my-4 list-decimal pl-6 space-y-1;
+  }
+  .prose-article strong {
+    @apply font-semibold text-ink;
+  }
+  .prose-article a {
+    @apply font-medium text-brand-dark underline underline-offset-2 decoration-brand/40 hover:decoration-brand;
+  }
+  .prose-article blockquote {
+    @apply my-6 border-l-2 border-brand/40 pl-4 italic text-ink/70;
+  }
+}
